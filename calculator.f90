@@ -44,10 +44,10 @@ program calculator
                 print *, 'Use: + - * /'
                 cycle
         end select
-        
-        ! Display result
+       
+        !fixed display
         print '(A, F10.4, A, F10.4, A, F10.4)', &
-              'Result: ', num1, ' ', operator, ' ', num2, ' = ', result
+              'Result: ', num1, ' ', operator, ' = ', result
         
         cycle
         
